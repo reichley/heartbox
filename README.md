@@ -18,3 +18,6 @@ Currently just the .ino file (sketch). Can find parts tutorial, inventory, etc. 
 -  upload the heartbox.ino sketch to your ESP8266
 -  browse to "name".local or observe ip in serial output in serial monitor
 -  test button operation by connecting something to the GPIO pin indicated in the sketch
+
+##### Arduino OTA
+This sketch implements the [Arduino OTA method.](https://github.com/esp8266/Arduino/blob/master/doc/ota_updates/readme.md) Following the initial upload, if you maintain the upload code in subsequent sketches you won't have to physically hook your ESP back up to your computer and can flash it remotely. Please see the Arduino OTA upload [instructions](https://github.com/esp8266/Arduino/blob/master/doc/ota_updates/readme.md#arduino-ide) for additional info. **NOTE: The ESP8266 OTA requires the module have AT LEAST 1MB of flash (512 won't work)**
