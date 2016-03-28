@@ -3,7 +3,7 @@
 Connect a blinking LED heart to an ESP8266 (01) to be able to tell/show a loved one you're thinking of them.
 
 ## Contents
-Currently just the .ino file (sketch). Can find parts tutorial, inventory, etc. on my upcoming hackster.io post 
+Currently just the .ino file (sketch). Can find parts tutorial, inventory, etc. at my [hackster.io post](https://www.hackster.io/reichley/wifi-blinking-heart-box-using-an-esp8266-d06ce4)
 
 ### Require changes to sketch
 -  ssid
